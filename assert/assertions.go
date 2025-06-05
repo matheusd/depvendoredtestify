@@ -17,8 +17,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/davecgh/go-spew/spew"
-	"github.com/pmezard/go-difflib/difflib"
+	"matheusd.com/depvendoredtestify/internal/vendored/go-spew/spew"
+	"matheusd.com/depvendoredtestify/internal/vendored/go-difflib/difflib"
 
 	// Wrapper around gopkg.in/yaml.v3
 	"matheusd.com/depvendoredtestify/assert/yaml"
