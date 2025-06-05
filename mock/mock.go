@@ -11,8 +11,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/davecgh/go-spew/spew"
-	"github.com/pmezard/go-difflib/difflib"
+	"matheusd.com/depvendoredtestify/internal/vendored/go-spew/spew"
+	"matheusd.com/depvendoredtestify/internal/vendored/go-difflib/difflib"
 
 	"matheusd.com/depvendoredtestify/assert"
 )
