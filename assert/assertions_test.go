@@ -2666,7 +2666,7 @@ func TestDirExists(t *testing.T) {
 	False(t, DirExists(mockT, "non_existent_dir"))
 
 	mockT = new(testing.T)
-	True(t, DirExists(mockT, "../_codegen"))
+	True(t, DirExists(mockT, "../assert"))
 
 	var tempFiles []string
 
@@ -2702,7 +2702,7 @@ func TestNoDirExists(t *testing.T) {
 	True(t, NoDirExists(mockT, "non_existent_dir"))
 
 	mockT = new(testing.T)
-	False(t, NoDirExists(mockT, "../_codegen"))
+	False(t, NoDirExists(mockT, "../assert"))
 
 	var tempFiles []string
 
