@@ -5,7 +5,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/stretchr/testify/assert"
+	"matheusd.com/depvendoredtestify/assert"
 )
 
 type ignoreTestingT struct{}

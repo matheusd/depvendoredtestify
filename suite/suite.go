@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
+	"matheusd.com/depvendoredtestify/assert"
+	"matheusd.com/depvendoredtestify/require"
 )
 
 var matchMethod = flag.String("testify.m", "", "regular expression to select tests of the testify suite to run")

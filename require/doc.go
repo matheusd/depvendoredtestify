@@ -7,7 +7,7 @@
 //
 //	import (
 //	  "testing"
-//	  "github.com/stretchr/testify/require"
+//	  "matheusd.com/depvendoredtestify/require"
 //	)
 //
 //	func TestSomething(t *testing.T) {

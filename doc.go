@@ -2,12 +2,12 @@
 //
 // Testify contains the following packages:
 //
-// The [github.com/stretchr/testify/assert] package provides a comprehensive set of assertion functions that tie in to [the Go testing system].
-// The [github.com/stretchr/testify/require] package provides the same assertions but as fatal checks.
+// The [matheusd.com/depvendoredtestify/assert] package provides a comprehensive set of assertion functions that tie in to [the Go testing system].
+// The [matheusd.com/depvendoredtestify/require] package provides the same assertions but as fatal checks.
 //
-// The [github.com/stretchr/testify/mock] package provides a system by which it is possible to mock your objects and verify calls are happening as expected.
+// The [matheusd.com/depvendoredtestify/mock] package provides a system by which it is possible to mock your objects and verify calls are happening as expected.
 //
-// The [github.com/stretchr/testify/suite] package provides a basic structure for using structs as testing suites, and methods on those structs as tests.  It includes setup/teardown functionality in the way of interfaces.
+// The [matheusd.com/depvendoredtestify/suite] package provides a basic structure for using structs as testing suites, and methods on those structs as tests.  It includes setup/teardown functionality in the way of interfaces.
 //
 // A [golangci-lint] compatible linter for testify is available called [testifylint].
 //

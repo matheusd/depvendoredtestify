@@ -21,7 +21,7 @@ import (
 	"github.com/pmezard/go-difflib/difflib"
 
 	// Wrapper around gopkg.in/yaml.v3
-	"github.com/stretchr/testify/assert/yaml"
+	"matheusd.com/depvendoredtestify/assert/yaml"
 )
 
 const stackFrameBufferSize = 10
