@@ -12,6 +12,14 @@ package.
 > This means this module contains breaking changes compared to the original
 > Testify module.
 
+# Versions
+
+Published versions match the corresponding released testify version.
+
+[v1.10.0-alpha](https://github.com/matheusd/depvendoredtestify/releases/tag/v1.10.0-alpha)
+(testify [v1.10.0](https://github.com/stretchr/testify/releases/tag/v1.10.0),
+[comparison](https://github.com/matheusd/depvendoredtestify/compare/upstream_v1.10.0...v1.10.0-alpha))
+
 
 # License
 
