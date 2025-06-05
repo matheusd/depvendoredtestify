@@ -1,4 +1,4 @@
-module github.com/stretchr/testify
+module matheusd.com/depvendoredtestify
 
 // This should match the minimum supported version that is tested in
 // .github/workflows/main.yml
@@ -8,7 +8,3 @@ require (
 	github.com/davecgh/go-spew v1.1.1
 	github.com/pmezard/go-difflib v1.0.0
 )
-
-// Break dependency cycle with objx.
-// See https://github.com/stretchr/objx/pull/140
-exclude github.com/stretchr/testify v1.8.2

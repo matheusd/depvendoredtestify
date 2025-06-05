@@ -35,8 +35,8 @@
 //	// Basic imports
 //	import (
 //	    "testing"
-//	    "github.com/stretchr/testify/assert"
-//	    "github.com/stretchr/testify/suite"
+//	    "matheusd.com/depvendoredtestify/assert"
+//	    "matheusd.com/depvendoredtestify/suite"
 //	)
 //
 //	// Define the suite, and absorb the built-in basic suite
@@ -66,5 +66,5 @@
 //	    suite.Run(t, new(ExampleTestSuite))
 //	}
 //
-// [issue 934]: https://github.com/stretchr/testify/issues/934
+// [issue 934]: https://matheusd.com/depvendoredtestify/issues/934
 package suite

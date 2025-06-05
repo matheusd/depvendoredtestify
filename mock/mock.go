@@ -14,7 +14,7 @@ import (
 	"github.com/davecgh/go-spew/spew"
 	"github.com/pmezard/go-difflib/difflib"
 
-	"github.com/stretchr/testify/assert"
+	"matheusd.com/depvendoredtestify/assert"
 )
 
 // regex for GCCGO functions
