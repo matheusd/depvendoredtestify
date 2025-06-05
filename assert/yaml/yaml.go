@@ -1,11 +1,8 @@
-//go:build testify_yaml_fail && !testify_yaml_custom && !testify_yaml_default
-
 // Package yaml is an implementation of YAML functions that always fail.
 //
-// This implementation can be used at build time to replace the default implementation
-// to avoid linking with [gopkg.in/yaml.v3]:
-//
-//	go test -tags testify_yaml_fail
+// This is a copy of the original yaml_fail.go file, but made default on this
+// module to enforce default builds to NOT require the [gopkg.in/yaml.v3]
+// package.
 package yaml
 
 import "errors"

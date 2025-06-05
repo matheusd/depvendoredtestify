@@ -13,7 +13,6 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/pmezard/go-difflib/difflib"
-	"github.com/stretchr/objx"
 
 	"github.com/stretchr/testify/assert"
 )
@@ -311,7 +310,7 @@ type Mock struct {
 
 	// TestData holds any data that might be useful for testing.  Testify ignores
 	// this data completely allowing you to do whatever you like with it.
-	testData objx.Map
+	testData map[string]interface{}
 
 	mutex sync.Mutex
 }
@@ -326,9 +325,9 @@ func (m *Mock) String() string {
 
 // TestData holds any data that might be useful for testing.  Testify ignores
 // this data completely allowing you to do whatever you like with it.
-func (m *Mock) TestData() objx.Map {
+func (m *Mock) TestData() map[string]interface{} {
 	if m.testData == nil {
-		m.testData = make(objx.Map)
+		m.testData = map[string]interface{}{}
 	}
 
 	return m.testData
